@@ -1,6 +1,5 @@
 import React from "react";
-import { Circles } from "react-loader-spinner";
-
+import ReactLoading from "react-loading";
 const Loading = () => {
   return (
     <div
@@ -14,24 +13,8 @@ const Loading = () => {
         gap: "5px",
       }}
     >
-      <Circles
-        height="80"
-        width="80"
-        color="#4fa94d"
-        ariaLabel="circles-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-      />{" "}
-      <span
-        style={{
-          color: "green",
-          fontWeight: "bolder",
-          letterSpacing: "2px",
-        }}
-      >
-        QuickSell
-      </span>
+      <ReactLoading type="bars" color="#0000FF"
+                height={100} width={50} />
     </div>
   );
 };

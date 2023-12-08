@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { DiCodeigniter } from "react-icons/di";
+import { HiChartBar } from "react-icons/hi2";
 import { AiOutlinePlus } from "react-icons/ai";
 import "./DashView.css";
 import Card from "../Card/Card";
@@ -20,7 +20,7 @@ const DashView = () => {
                 <div className="dashCardHeading flex-sb">
                   <div className="leftView">
                     {!user ? (
-                      <DiCodeigniter />
+                      <HiChartBar />
                     ) : (
                       <>
                         <div
@@ -33,7 +33,7 @@ const DashView = () => {
                               height: "100%",
                               borderRadius: "50%",
                             }}
-                            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                            src="https://harsh-portfolio-three.vercel.app/static/media/harsh_photo.b360ad61a5d174f6226a.png"
                             alt="UserImage"
                           />
                         </div>
