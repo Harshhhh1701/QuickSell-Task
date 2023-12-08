@@ -6,8 +6,7 @@
     background: rgb(226, 226, 226);
     padding: 15px 20px;
 }
-
-.dashCardContainer{
+.CardContainer{
     display: flex;
     justify-content: center;
     align-content: center;

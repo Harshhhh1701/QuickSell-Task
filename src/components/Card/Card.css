@@ -6,11 +6,9 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     background: white;
 }
-
 .cardContainer > *{
     width: 100%;
 }
-
 .showStatus{
     position: absolute;
     right: 0;
@@ -19,13 +17,11 @@
     height: 10px;
     border-radius: 50%;
 }
-
 .cardTags{
     display: flex;
     align-items: center;
     gap: 5px;
 }
-
 .tags{
     display: flex;
     align-items: center;

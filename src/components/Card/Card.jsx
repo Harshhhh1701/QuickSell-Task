@@ -2,16 +2,16 @@ import React from "react";
 import "./Card.css";
 import { IoIosWarning } from "react-icons/io";
 const Card = ({ id, title, tag, status }) => {
-    const getStatusColor = (status) => {
-        switch (status) {
-          case "Backlog":
-            return "red";
-          case "In progress":
-            return "green";
-          default:
-            return "silver";
-        }
-      };
+  const getStatusColor = (status) => {
+    switch (status) {
+      case "Backlog":
+        return "red";
+      case "In progress":
+        return "green";
+      default:
+        return "silver";
+    }
+  };
   return (
     <div className="cardContainer flex-gap-10" style={{ gap: "5px" }}>
       <div className="cardHeading flex-sb">
@@ -29,7 +29,7 @@ const Card = ({ id, title, tag, status }) => {
           />
           <div
             className="showStatus"
-            style={{ backgroundColor: getStatusColor({status}) }}
+            style={{ backgroundColor: getStatusColor({ status }) }}
           ></div>
         </div>
       </div>

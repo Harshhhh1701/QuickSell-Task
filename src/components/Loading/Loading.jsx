@@ -13,8 +13,7 @@ const Loading = () => {
         gap: "5px",
       }}
     >
-      <ReactLoading type="bars" color="#0000FF"
-                height={100} width={50} />
+      <ReactLoading type="bars" color="#0000FF" height={100} width={50} />
     </div>
   );
 };

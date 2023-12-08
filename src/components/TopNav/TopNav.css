@@ -1,13 +1,10 @@
-
-.selectGroup{
+.selection{
     padding: 3px;
 }
-
 .displayButton{
     position: relative;
 }
-
-.dropOnClick{
+.dropDown{
     position: absolute;
     width: 250px;
     background-color: #f8f8fa;
@@ -15,17 +12,17 @@
     margin-top: 10px;
     z-index: 10;
 }
-
 .dropOnClick > *{
     width: 100%;
 }
-
 .btn{
-    background:  #f8f8fa;;
+    background: #f8f8fa;;
     border: 1px solid silver;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
-
 .selectStyle{
     width: 100px;
     border-radius: 5px;

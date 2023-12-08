@@ -16,7 +16,7 @@ const DashView = () => {
         {selectedData.map((elem, index) => {
           return (
             <>
-              <div key={index} className="dashCardContainer">
+              <div key={index} className="CardContainer">
                 <div className="dashCardHeading flex-sb">
                   <div className="leftView">
                     {!user ? (
@@ -25,7 +25,11 @@ const DashView = () => {
                       <>
                         <div
                           className="imageContainer relative"
-                          style={{ width: "15px", height: "15px", display : 'inline-block' }}
+                          style={{
+                            width: "15px",
+                            height: "15px",
+                            display: "inline-block",
+                          }}
                         >
                           <img
                             style={{
