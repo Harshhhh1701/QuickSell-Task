@@ -1,6 +1,6 @@
 # QuickSell-Task 🚀✔
 
-Deployed 💡<a href="https://github.com/Harshhhh1701/QuickSell-Task"> DEMO </a>
+Deployed 💡<a href="https://quick-sell-task.vercel.app/"> DEMO </a>
 
 Download the zip file from ⏬ <a href="https://github.com/Harshhhh1701/QuickSell-Task">Link for Github repository</a>
 
