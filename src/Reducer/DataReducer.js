@@ -1,4 +1,6 @@
 import { createReducer } from "@reduxjs/toolkit";
+
+
 export const DataReducer = createReducer({}, {
     DATA_REQUEST : (state) => {
         state.loading = true;
@@ -17,16 +19,16 @@ export const DataReducer = createReducer({}, {
 
 
 export const SelectReducer = createReducer({}, {
-    SELECT_DATA_REQUEST : (state) => {
+    SELECT_REQUEST : (state) => {
         state.loading = true;
         state.selectedData = [];
     },
-    SELECT_DATA_SUCCESS : (state, action) => {
+    SELECT_SUCCESS : (state, action) => {
         state.loading = false;
         state.selectedData = action.payload.selectedData;
         state.user = action.payload.user
     },
-    SELECT_DATA_FAILURE : (state, action) => {
+    SELECT_FAILURE : (state, action) => {
         state.loading = false;
         state.selectedData = []
         state.message = action.payload.message
