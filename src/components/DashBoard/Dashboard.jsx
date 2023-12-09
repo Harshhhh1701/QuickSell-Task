@@ -2,10 +2,10 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { HiChartBar } from "react-icons/hi2";
 import { AiOutlinePlus } from "react-icons/ai";
-import "./DashView.css";
+import "./Dashboard.css";
 import Card from "../Card/Card";
 
-const DashView = () => {
+const Dashboard = () => {
   const { selectedData, user } = useSelector(
     (state) => state.SelectDataReducer
   );
@@ -69,4 +69,4 @@ const DashView = () => {
   );
 };
 
-export default DashView;
+export default Dashboard;

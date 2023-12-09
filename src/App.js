@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import './App.css';
+import Header from './components/Header/Header';
+import Dashboard from './components/DashBoard/Dashboard';
+import Loading from './components/Loading/Loading';
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchAllData } from './Actions/DataAction';
-import TopNav from './components/TopNav/TopNav';
-import DashView from './components/DashBoard/DashView';
-import Loading from './components/Loading/Loading';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -15,9 +15,9 @@ const App = () => {
 
   return allTickets ? (
     <div style={{ paddingTop: "10px" }} >
-      <TopNav />
+      <Header />
       <hr style={{ marginTop: "10px" }} />
-      <DashView />
+      <Dashboard />
     </div>
   ) : <Loading />
 }

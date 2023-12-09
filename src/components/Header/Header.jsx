@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaList } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { selectData } from "../../Actions/DataAction";
-import "./TopNav.css";
+import "./Header.css";
 
 const getGroup = () => {
   if (localStorage.getItem("group")) {
@@ -19,7 +19,7 @@ const getOrder = () => {
     return "priority";
   }
 };
-const TopNav = () => {
+const Header = () => {
   const [displayOnClick, setDisplayOnClick] = useState(false);
   const dispatch = useDispatch();
   const { allTickets, allUser } = useSelector((state) => state.DataReducer);
@@ -103,4 +103,4 @@ const TopNav = () => {
   );
 };
 
-export default TopNav;
+export default Header;

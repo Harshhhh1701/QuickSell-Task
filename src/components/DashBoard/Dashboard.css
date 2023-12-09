@@ -1,16 +1,16 @@
 .dashContainer{
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 20px;
-    flex-wrap: wrap;
-    background: rgb(226, 226, 226);
     padding: 15px 20px;
+    background: rgb(226, 226, 226);
 }
 .CardContainer{
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
     width: 300px;
+    align-content: center;
 }
