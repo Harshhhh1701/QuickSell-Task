@@ -56,7 +56,7 @@ const Dashboard = () => {
                 <div className="dashList flex-gap-10">
                   {elem[index]?.value?.map((elem, ind) => {
                     return (
-                      <Card id={elem.id} title={elem.title} tag={elem.tag} />
+                      <Card id={elem.id} title={elem.title} tag={elem.tag} status={elem.status} />
                     );
                   })}
                 </div>

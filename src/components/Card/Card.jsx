@@ -2,6 +2,7 @@ import React from "react";
 import "./Card.css";
 import { IoIosWarning } from "react-icons/io";
 const Card = ({ id, title, tag, status }) => {
+  console.log(status)
   const getStatusColor = (status) => {
     switch (status) {
       case "Backlog":
@@ -29,7 +30,7 @@ const Card = ({ id, title, tag, status }) => {
           />
           <div
             className="showStatus"
-            style={{ backgroundColor: getStatusColor({ status }) }}
+            style={{ backgroundColor: getStatusColor(status) }}
           ></div>
         </div>
       </div>
