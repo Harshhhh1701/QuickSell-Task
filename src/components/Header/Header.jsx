@@ -56,7 +56,7 @@ const Header = () => {
   }, [allTickets, dispatch, groupValue, allUser, orderValue]);
 
   return (
-    <div className="top-header" style={{ paddingLeft: "10px" }}>
+    <div className="top-header" style={{ paddingLeft: "10px", paddingBottom:"10px" }}>
       <div className="displayButton">
         <button
           className="p-10 f-16 btn"

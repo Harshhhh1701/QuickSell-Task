@@ -14,3 +14,8 @@
     width: 300px;
     align-content: center;
 }
+.leftView{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
