@@ -7,7 +7,7 @@ import Card from "../Card/Card";
 
 const Dashboard = () => {
   const { selectedData, user } = useSelector(
-    (state) => state.SelectDataReducer
+    (state) => state.SelectReducer
   );
 
   return (

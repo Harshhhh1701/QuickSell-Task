@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Dashboard from './components/DashBoard/Dashboard';
 import Loading from './components/Loading/Loading';
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchAllData } from './Actions/DataAction';
+import { fetchAllData } from './Actions/Actions';
 
 const App = () => {
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaList } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
-import { selectData } from "../../Actions/DataAction";
+import { selectData } from "../../Actions/Actions";
 import "./Header.css";
 
 const getGroup = () => {
